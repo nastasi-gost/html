@@ -1,37 +1,3 @@
-<!-- Создать пустую папку, придумать название
-Создать первую html страницу (index.html)
-Добавить структуру html документа
-Добавить меню сайта (Меню сайта должно быть на каждой странице, оно
-должно быть одинаковым)
-Главная
-Каталог
-Контакты
-Создать заголовок h1 с текстом “Главная страница”
-Добавить параграф p с произвольным текстом (lorem) (используем расширение
-emmet уже установленное в vsc, для этого вводим lorem и нажимаем клавишу
-tab)
-Создать подзаголовок h2 с текстом “Добро пожаловать на сайт”
-Добавить три параграфа p с произвольным текстом (lorem)
-Рядом с файлом index.html создать папку catalog
-Внутри папки catalog создать файл catalog.html
-На странице “каталог” добавить структуру html документа
-Добавить меню сайта (такое же как на главной странице)
-Добавить Заголовок h1 с текстом “Каталог”
-Создать параграф p с произвольным текстом из 150 слов для этого вводим
-“lorem150” и нажимаем tab
-Сделать переходы с главной страницы на страницу каталог, при нажатии на
-меню сайта и переход со страницы каталог на главную страницу
-Создать папку img и разместить ее рядом с index.html
-Добавить в папку img произвольные фотографии товаров, по вашей тематике
-можно выбрать любое фото https://www.freepik.com/search?
-format=search&orientation=portrait&query=products
-На странице “Каталог” после заголовка h1 и параграфа p добавить
-Изображение товара
-Название товара
-Описание товара
-Добавить 3 таких товара на страницу каталога (не следует добавлять более 3х
-товаров) -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,17 +5,17 @@ format=search&orientation=portrait&query=products
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h3>Меню:</h3>
-    <a href="index.html">Главная</a>
-    <a href="./catalog/catalog.html">Каталог</a>
-    <a href="">Контакты</a>
-    <h1>Главная страница</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, natus!</p>
-    <h2>Добро пожаловать на сайт!</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, veniam sunt autem asperiores aperiam dolorem.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum eius inventore fugiat aut ex fuga.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam excepturi harum eaque eos. Impedit, quaerat!</p>
+    <a href="index.html" class="menu">Главная</a>
+    <a href="./catalog/catalog.html" class="menu">Каталог</a>
+    <a href="" class="menu">Контакты</a>
+    <h1 class="big">Главная страница</h1>
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, natus!</p>
+    <h2 class="less">Добро пожаловать на сайт!</h2>
+    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, veniam sunt autem asperiores aperiam dolorem.</p>
+    <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum eius inventore fugiat aut ex fuga.</p>
+    <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam excepturi harum eaque eos. Impedit, quaerat!</p>
 </body>
 </html>
