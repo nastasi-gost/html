@@ -3,20 +3,65 @@ a {
 }
 
 .header {
-    margin: 20px;
-    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.start {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.orange {
+    color: #F25822;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 35px;
 }
 
 .content {
-    margin: 20px;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 }
-.logo {
-    padding: 20px;
-    margin: 20px;
+
+.left {
+    width: 300px;
+    padding: 30px;
+}
+
+.text {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+button {
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
 }
 
 .img {
-    padding: 20px;
-    margin: 20px;
+    padding: 30px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px;
 }
