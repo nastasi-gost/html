@@ -97,9 +97,9 @@ a {
 }
 
 .content {
-   display: grid;
-   grid-template-columns: 30% auto 30%;
-   padding: 30px;
+    display: grid;
+    grid-template-columns: 30% auto 30%;
+    padding: 30px;
 }
 
 .content1 {
@@ -124,9 +124,9 @@ a {
 }
 
 .item2 {
-   background-color: rgba(247, 228, 226, 1);
-   width: 360px;
-   height: 420px;
+    background-color: rgba(247, 228, 226, 1);
+    width: 360px;
+    height: 420px;
 }
 
 .item1 {
@@ -149,7 +149,7 @@ a {
     display: flex;
     justify-content: center;
     border: 1px solid #FF6A6A;
-    width:  211px;
+    width: 211px;
     height: 47px;
     background-color: #FFFFFF;
 }
@@ -157,4 +157,59 @@ a {
 .last_text {
     color: #FF6A6A;
     text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .img {
+        width: 360px;
+    }
+
+    .brand {
+        padding: 290px 20px 381px 40px;
+    }
+
+    .center {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 65px 0px;
+        gap: 50px;
+        position: relative;
+    }
+    .fantasy_no {
+        display: flex;
+        justify-content: center;
+        padding: 230px;
+    }
+
+    .image {
+        position: absolute;
+    }
+    
+    .fon {
+        position: absolute;
+    }
+  
+    .zag4 {
+        position: absolute;
+        top: 175.04%;
+        color: #FFFFFF;
+    }
+
+    .zag1 {
+        left: 10.81%;
+    }
+    
+    .content {
+        display: grid;
+        grid-template-columns: 20% auto 20%;
+        padding: 30px;
+    }
+
+    .blok {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 30px;
+        position: relative;
+    }
 }
