@@ -1,0 +1,160 @@
+a {
+    text-decoration: none;
+}
+
+.header {
+    background: #222222;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.left {
+    display: flex;
+    justify-content: left;
+    gap: 41px;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+    gap: 33px;
+    padding: 10 50 10 0;
+}
+
+.title {
+    background: #F1E4E6;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.brand {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    padding: 290px 200px 381px 0;
+}
+
+.hz {
+    width: 12px;
+    height: 92px;
+}
+
+.center {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 65px 100px 65px 100px;
+    gap: 30px;
+    position: relative;
+}
+
+.image {
+    position: absolute;
+}
+
+.fon {
+    position: absolute;
+}
+
+.zag1 {
+    position: absolute;
+    left: 15.81%;
+    right: 59.56%;
+    top: 114.5%;
+    bottom: 63.79%;
+    color: #FFFFFF;
+}
+
+.zag2 {
+    position: absolute;
+    left: 46.56%;
+    top: 114.5%;
+    bottom: 63.79%;
+    color: #FFFFFF;
+}
+
+.zag3 {
+    position: absolute;
+    left: 75.81%;
+    top: 114.5%;
+    bottom: 63.79%;
+    color: #FFFFFF;
+}
+
+.red {
+    color: rgba(241, 109, 127, 1);
+}
+
+.fantasy_no {
+    display: flex;
+    justify-content: center;
+    padding: 230px;
+}
+
+.content {
+   display: grid;
+   grid-template-columns: 30% auto 30%;
+   padding: 30px;
+}
+
+.content1 {
+    text-align: center;
+}
+
+.grey {
+    color: rgba(159, 159, 159, 1);
+}
+
+.zag4 {
+    position: absolute;
+    top: 199.04%;
+    color: #FFFFFF;
+}
+
+.blok {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+
+.item2 {
+   background-color: rgba(247, 228, 226, 1);
+   width: 360px;
+   height: 420px;
+}
+
+.item1 {
+    width: 360px;
+    height: 581px;
+    background-color: rgba(248, 248, 248, 1);
+}
+
+.text {
+    padding: 10px;
+}
+
+.last {
+    display: grid;
+    grid-template-columns: auto 211px auto;
+    padding: 48px;
+}
+
+.last1 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #FF6A6A;
+    width:  211px;
+    height: 47px;
+    background-color: #FFFFFF;
+}
+
+.last_text {
+    color: #FF6A6A;
+    text-align: center;
+}
