@@ -50,40 +50,7 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 65px 100px 65px 100px;
     gap: 30px;
-    position: relative;
-}
-
-.image {
-    position: absolute;
-}
-
-.fon {
-    position: absolute;
-}
-
-.zag1 {
-    position: absolute;
-    left: 15.81%;
-    right: 59.56%;
-    top: 114.5%;
-    bottom: 63.79%;
-    color: #FFFFFF;
-}
-
-.zag2 {
-    position: absolute;
-    left: 46.56%;
-    top: 114.5%;
-    bottom: 63.79%;
-    color: #FFFFFF;
-}
-
-.zag3 {
-    position: absolute;
-    left: 75.81%;
-    top: 114.5%;
-    bottom: 63.79%;
-    color: #FFFFFF;
+    /* position: relative; */
 }
 
 .red {
@@ -93,7 +60,7 @@ a {
 .fantasy_no {
     display: flex;
     justify-content: center;
-    padding: 230px;
+    padding: 30px;
 }
 
 .content {
@@ -108,12 +75,6 @@ a {
 
 .grey {
     color: rgba(159, 159, 159, 1);
-}
-
-.zag4 {
-    position: absolute;
-    top: 199.04%;
-    color: #FFFFFF;
 }
 
 .blok {
@@ -171,34 +132,16 @@ a {
     .center {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        padding: 65px 0px;
-        gap: 50px;
-        position: relative;
+        grid-template-rows: 1fr;
+        padding: 32px 0px;
     }
+
     .fantasy_no {
         display: flex;
         justify-content: center;
-        padding: 230px;
+        padding: 30px;
     }
 
-    .image {
-        position: absolute;
-    }
-    
-    .fon {
-        position: absolute;
-    }
-  
-    .zag4 {
-        position: absolute;
-        top: 175.04%;
-        color: #FFFFFF;
-    }
-
-    .zag1 {
-        left: 10.81%;
-    }
-    
     .content {
         display: grid;
         grid-template-columns: 20% auto 20%;
@@ -210,6 +153,40 @@ a {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 30px;
-        position: relative;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    
+    .header {
+        width: 737px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .photo {
+        display: none;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .title {
+        width: 767px;
+    }
+
+    .center {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .blok {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        justify-items: center;
     }
 }
