@@ -50,7 +50,6 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 65px 100px 65px 100px;
     gap: 30px;
-    /* position: relative; */
 }
 
 .red {
@@ -173,7 +172,7 @@ a {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    
+
     .img {
         width: 360px;
     }
